@@ -8,4 +8,4 @@ Suci Dwi Ananda     : - Banner Section
 
 Shinta Qia          : - Gallery Section
 
-Revo                : - Footer
+Revi Oktarda        : - Footer
