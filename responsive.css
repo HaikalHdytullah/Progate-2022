@@ -1,0 +1,140 @@
+@media all and (max-width: 1000px) {
+  body {
+    font-size: 18px;
+  }
+  a {
+    line-height: 100px;
+    font-size: 20px;
+  }
+  .header-left a {
+    transition: none;
+    width: 50%;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .fa {
+    float: right;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 5px;
+  }
+  .header-right {
+    display: none;
+  }
+  .car-container {
+    display: block;
+    width: 100%;
+    padding-top: 60px;
+    margin: 0;
+  }
+  .car-section-left {
+    text-align: center;
+    width: 100%;
+  }
+  .car-section-right {
+    margin-top: 20px;
+  }
+  .mobil {
+    width: 100%;
+  }
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* Main Section */
+  .main-section-left {
+    text-align: center;
+    width: 100%;
+  }
+  .main-section-right {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .main-container {
+    display: block;
+    width: 100%;
+    padding-top: 60px;
+    margin: 0;
+  }
+  .orang {
+    width: 80%;
+  }
+  /* Gallery Section */
+  .gallery {
+    display: block;
+    margin-left: 20px;
+    width: 500px;
+  }
+  .tab {
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  .tab p {
+    font-size: 20px;
+  }
+  .tab button {
+    width: 90%;
+    height: 50px;
+    font-size: 18px;
+  }
+
+  /* Banner */
+  .container {
+    width: 500px;
+  }
+  /* Footer */
+
+  footer {
+    background: #f8f8ec;
+    bottom: 0%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media all and (max-width: 670px) {
+  body {
+    font-size: 16px;
+  }
+  .card-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* Main Section */
+  .main-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .orang {
+    width: 80%;
+  }
+  /* Gallery Section */
+  .gallery {
+    display: block;
+    margin-left: 10px;
+    width: 300px;
+  }
+  .tab {
+    width: 85%;
+    margin-bottom: 10px;
+  }
+  .tab p {
+    font-size: 15px;
+  }
+  .tab button {
+    width: 90%;
+    font-size: 14px;
+  }
+  /* Banner */
+  .container {
+    width: 280px;
+  }
+  /* Footer */
+
+  footer {
+    background: #f8f8ec;
+    bottom: 0%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

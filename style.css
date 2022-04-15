@@ -1,0 +1,315 @@
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  line-height: 80px;
+  display: block;
+}
+.header-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #f1f3ff;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.header-left {
+  margin-left: 20px;
+}
+.header-left a {
+  width: 12%;
+}
+
+.header-right {
+  display: flex;
+  justify-content: end;
+}
+.header-right a {
+  padding: 0 15px;
+  color: black;
+  transition: all 0.5s;
+  float: left;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.801);
+}
+
+.header-right button {
+  background-color: #5cb85c;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.menu-icon {
+  display: none;
+}
+
+.car-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  padding-top: 100px;
+  margin: 0 20px;
+}
+.car-section-left {
+  text-align: justify;
+  margin-top: 80px;
+  width: 85%;
+}
+.mobil {
+  width: 95%;
+}
+
+.whyus-container {
+  margin: 30px 20px 0 20px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+.card-box {
+  padding: 20px;
+}
+
+.gambar {
+  width: 40px;
+}
+.card {
+  border: 1px solid grey;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  text-align: justify;
+}
+
+/* CSS MAIN */
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: 0 20px;
+}
+.main-section-left {
+  text-align: justify;
+  margin-top: 80px;
+  width: 90%;
+}
+.main-content {
+  float: right;
+}
+.ceklis {
+  padding-top: 20;
+}
+.gambar {
+  width: 18px;
+  padding-top: 15px;
+  padding-right: 10px;
+}
+
+/* Banner Section */
+.container {
+  width: 1000px;
+  height: 100%;
+  padding: 30px 45px;
+  margin: auto;
+  background-color: darkblue;
+  text-align: center;
+  color: #eee;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.button-banner {
+  margin-bottom: 30px;
+}
+.heading h2 {
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: normal;
+  border-top: 20px;
+}
+
+.heading h3 {
+  margin-bottom: 30px;
+  font-weight: normal;
+  font-family: "Lucida Grande";
+}
+
+.message {
+  padding: 10px 40px;
+  background-color: green;
+  border-radius: 5px;
+  box-shadow: 5px 5px black;
+  cursor: pointer;
+}
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+/* Gallery Section */
+.gallery {
+  display: flex;
+}
+
+.tab {
+  flex-direction: column;
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+  border: solid 1px #c4cace;
+}
+
+.tab h3 {
+  color: black;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #c4cace;
+  text-align: center;
+}
+
+.tab img {
+  width: 95%;
+}
+
+.tab p {
+  text-align: justify;
+  padding: 5px;
+}
+.tab button {
+  width: 250px;
+  margin: 14px;
+  padding: 5px;
+}
+
+/* Footer */
+
+footer {
+  background: #f8f8ec;
+  bottom: 0%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+footer > div {
+  padding: 15px 50px;
+}
+
+hr {
+  opacity: 0%;
+}
+
+footer > .mid {
+  display: flex;
+}
+
+footer .mid .left p {
+  font-size: 14px;
+  width: 280px;
+  margin-bottom: 20px;
+}
+
+footer .mid .mid h3 {
+  color: black;
+  margin-bottom: 3px;
+  font-size: 14px;
+}
+
+footer .mid .mid .genre a {
+  display: block;
+  width: 120px;
+  margin: 5px 0px;
+  font-size: 15px;
+}
+
+footer .mid .icon h3 {
+  color: black;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+footer .mid .icon a {
+  padding: 7px;
+  font-size: 18px;
+  width: 20px;
+  text-align: center;
+  margin: 20px 7px 20px 0px;
+  border-radius: 50%;
+  color: rgb(35, 13, 155);
+}
+
+footer .bottom {
+  font-size: 13px;
+  width: 200px;
+}
+
+#home {
+  height: 230px;
+  width: 100%;
+  opacity: 0%;
+
+  background-color: pink;
+  z-index: -1;
+  position: Absolute;
+}
+#ourservices {
+  height: 230px;
+  width: 100%;
+  opacity: 0%;
+
+  background-color: pink;
+  z-index: -1;
+  position: Absolute;
+}
+#whyus {
+  margin-top: -50px;
+  height: 230px;
+  width: 100%;
+  opacity: 0%;
+
+  background-color: pink;
+  z-index: -1;
+  position: Absolute;
+}
+#rent {
+  margin-top: -50px;
+  height: 230px;
+  width: 100%;
+  opacity: 0%;
+
+  background-color: pink;
+  z-index: -1;
+  position: Absolute;
+}
