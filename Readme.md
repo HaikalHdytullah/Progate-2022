@@ -1,11 +1,9 @@
-Haikal Hidayatullah : - Navbar
-                      - Header
-                      - Why Us Section
-                      
-Rahmatullah         : - Main Section
+Haikal Hidayatullah : - Navbar - Header - Why Us Section
 
-Suci Dwi Ananda     : - Banner Section
+Rahmatullah : - Main Section
 
-Shinta Qia          : - Gallery Section
+Suci Dwi Ananda : - Banner Section
 
-Revo                : - Footer
+Shinta Qia : - Gallery Section
+
+Revi Oktarda : - Footer
